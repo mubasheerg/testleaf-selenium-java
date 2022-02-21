@@ -22,5 +22,6 @@ public class College extends Department {
 		college.deptName();
 		college.myId();
 		college.myName();
+		college.myCGPA();
 	}
 }
