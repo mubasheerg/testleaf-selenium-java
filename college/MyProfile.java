@@ -1,6 +1,6 @@
 package org.college;
 
-public class MyProfile {
+public class MyProfile extends MyScore {
 	public void myId() {
 		System.out.println("my register number is 2017506560");
 	}
