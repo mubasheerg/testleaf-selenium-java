@@ -12,22 +12,22 @@ public class Bank extends SBI implements PNB, Cibil {
 	}
 
 	public void creditScore() {
-		System.out.println("92%");
+		System.out.println("79%");
 	}
 
 	public void minimumBalance() {
-		System.out.println("Rs:1000");
+		System.out.println("Rs:5000");
 	}
 
 	public void cibilScore() {
-		System.out.println("92.3%");
+		System.out.println("87.2%");
 	}
 
 	public void bankBalance() {
-		System.out.println("Rs:85223.36");
+		System.out.println("Rs:79900.36");
 	}
 
 	public void maximumLoanAmount() {
-		System.out.println("Rs:1000000");
+		System.out.println("Rs:2000000");
 	}
 }
