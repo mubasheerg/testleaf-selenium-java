@@ -15,12 +15,17 @@ public class DragAndDrop {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/drop.html");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 		WebElement drag = driver.findElement(By.id("draggable"));
 		WebElement drop = driver.findElement(By.id("droppable"));
 		Actions builder = new Actions(driver);
-		builder.dragAndDrop(drag, drop).build().perform();
+		builder.dragAndDrop(drag, drop).perform();
+	
+	//	WebElement from = driver.findElement(By.id("draggable"));
+	//	WebElement to = driver.findElement(By.id("droppable"));
+	//	Actions builder1 = new Actions(driver);
+	//	builder1.clickAndHold(from).moveToElement(to).perform();
 
 	}
 }
