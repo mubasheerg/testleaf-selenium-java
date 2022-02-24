@@ -18,7 +18,7 @@ public class SignUpForm {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		driver.findElement(By.name("UserFirstName-N2x8")).sendKeys("Mubasheer");
+		driver.findElement(By.name("UserFirstName")).sendKeys("Mubasheer");
 		driver.findElement(By.name("UserLastName")).sendKeys("G");
 		driver.findElement(By.name("UserEmail")).sendKeys("mubasheer1401@gmail.com");
 		driver.findElement(By.name("CompanyName")).sendKeys("TESTLEAF");
